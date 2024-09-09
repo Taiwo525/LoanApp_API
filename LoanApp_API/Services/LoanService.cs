@@ -5,7 +5,7 @@ using LoanApp_API.Repositories;
 
 namespace LoanApp_API.Services
 {
-    public class LoanService
+    public class LoanService : ILoanService
     {
         private readonly ILoanRepository _repository;
         private readonly IMapper _mapper;
